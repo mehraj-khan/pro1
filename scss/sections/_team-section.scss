@@ -1,0 +1,39 @@
+.team-section{
+    margin-bottom: 7rem;
+    .team-header{
+        
+        .team-heading{
+            @include heading();
+        }
+        .team-text{
+            color: map-get($colors , "$text-muted");
+        }
+    }
+    .card{
+        background-color: map-get($colors , "$blue-700");
+        color: map-get($colors , "$white");
+        .card-img{
+            .img-fluid{
+                background: map-get($gradient-background , "$main-button" );
+                border-radius: 1.5rem;
+            }
+            .shape-diamont{
+                
+                img{
+                    width: 40%;
+                    margin-top: -2.5rem;
+                }
+                i{
+                    transform: translate(-4.5rem, -1.3rem);
+                    color: plum;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .card-body{
+            .sub-title{
+                color: map-get($colors , "$text-muted");
+            }
+        }
+    }
+}

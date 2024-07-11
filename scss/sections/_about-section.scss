@@ -1,0 +1,29 @@
+.about-section{
+    margin-top: 7rem;
+    .about-content{
+        .about-g-heading{
+            @include gradient-text();
+        }
+        .about-main-heading{
+            @include heading();
+        }
+        .about-text{
+            color: map-get($colors , "$text-muted");
+        }
+        .about-bullet-points{
+            p{
+                margin-left: -5.5rem;
+                font-size: map-get($font-size , "$lead-font-size") + .1rem;
+            }
+        }
+        .about-button{
+            .btn{
+                @include sub-button();
+        }
+        }
+    }
+    .about-img img{
+        max-width: 100%;
+        height: auto;
+    }
+}

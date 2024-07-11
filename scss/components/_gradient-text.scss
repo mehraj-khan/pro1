@@ -1,0 +1,7 @@
+@mixin gradient-text(){
+    font-weight: map-get($font-weight , "$font-weight-bolder");
+            background-image: map-get($gradient-background , "$sub-button");
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: map-get($font-size , "$lead-font-size");
+}

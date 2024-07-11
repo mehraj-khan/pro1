@@ -1,0 +1,17 @@
+.footer-section{
+    background-image: url("../images/footer-bg.png");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding: 12rem 10rem 2rem 10rem;
+    .footer-content{
+        .footer-logo{
+            font-size: map-get($font-size , "$h3-font-size");
+        }
+    }
+}
+@media (max-width : 870px) {
+    .footer-section{
+        padding: 12rem 5rem 2rem 5rem;
+    }
+}

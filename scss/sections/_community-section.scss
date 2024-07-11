@@ -1,0 +1,38 @@
+.main-bg {
+    height: auto;
+    background-color: map-get($colors , "$blue-900");
+
+    .community-img {
+        img {
+            max-width: 100%;
+            height: auto;
+            padding-right: 1rem;
+        }
+    }
+
+    .community-headings {
+
+        .comm-gradient-heading {
+            @include gradient-text();
+        }
+
+        .comm-main-heading {
+            @include heading();
+        }
+    }
+
+    .comm-context {
+        border-left: 2px solid whitesmoke;
+
+        .comm-text {
+            color: map-get($colors , "$text-muted");
+            font-weight: map-get($font-weight , "$font-weight-bold");
+        }
+
+        .comm-button {
+            .btn {
+                @include sub-button();
+            }
+        }
+    }
+}

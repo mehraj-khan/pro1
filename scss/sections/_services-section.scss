@@ -1,0 +1,41 @@
+.service-section {
+    margin-top: 5rem;
+
+    .service-alignment {
+        display: flex;
+        justify-content: center;
+
+        .service-content {
+            .service-heading {
+                @include heading();
+            }
+
+            .service-text {
+                color: map-get($colors , "$text-muted");
+                font-size: map-get($font-size , "$lead-font-size") + .2rem;
+            }
+        }
+    }
+
+    .service-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card {
+            display: flex;
+            flex-direction: row;
+            background-color: map-get($colors , "$blue-700");
+            color: map-get($colors, "$white");
+            .card-body{
+                margin-left: -3rem;
+                .card-title{
+                    font-size: map-get($font-size, "$h3-font-size");
+                    font-weight: map-get($font-weight , "$font-weight-bold");
+                }
+                .card-text{
+                    color: map-get($colors , "$text-muted");
+                }
+            }
+        }
+    }
+}

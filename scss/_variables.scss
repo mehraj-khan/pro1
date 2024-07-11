@@ -1,0 +1,49 @@
+// COLOR VARAIBLES:----
+$colors: (
+    "$primary" : #3964f9,
+    "$info" : #1752c3,
+    "$white" : #fff,
+    "$text-muted" : rgba(255, 255, 255, 0.5),
+    "$blue-200" : #D7DFEF,
+    "$gray-100" : rgba(255, 255, 255, 0.2),
+    "$blue-700" : #1E2738,
+    "$blue-900" : #141A28,
+);
+
+// GRADIENT VARIABLES:---
+$gradient-background: (
+    "$main-button": linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6),
+    "$sub-button" : linear-gradient(90deg, #17EAD9 0%, #6078EA 50%, #17EAD9 100%),
+    "$fact-bg" : linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6),
+    "$img-bg" : linear-gradient(35deg, #17EAD9 0%, #6078EA 100%),
+    "$project-img" : linear-gradient(35deg, #ea1717 0%, #193ce5 100%),
+);
+
+// FONT-SIZE VARIABLES:----
+$font-size: (
+    "$legend-font-size": 2.6rem,
+    "$h1-font-size": 2.25rem,
+    "$h2-font-size": 1.875rem,
+    "$navbar-brand-font-size": 1.5625rem,
+    "$h3-font-size": 1.375rem,
+    "$lead-font-size": 1rem,
+    "$nav-link-font-size": .875rem,
+    "$small-font-size": .8125rem,
+    "$btn-font-size": .75rem,
+);
+
+// FONT FAMILY:---
+$font-family: (
+    "$font-family-sans-serif": 'Poppins' 'sans-serif',
+    "$headings-font-family": 'michroma' 'Sans-serif',
+);
+
+// FONT WEIGHT VARIABLES:-----
+$font-weight: (
+    "$font-weight-medium": 500,
+    "$font-weight-bold": 600,
+    "$font-weight-bolder": 700,
+);
+
+// TRANSITION VARIABLE:------
+$main-transition: all .5s ease-out;

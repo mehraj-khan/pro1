@@ -1,0 +1,40 @@
+// IMPORT VARIABLES:----
+@import "variables";
+
+
+
+//IMPORT COMPONENTS:---
+@import "components/button";
+@import "components/gradient-text";
+@import "components/heading";
+@import "components/img-gradient";
+
+// IMPORT SETIONS:-----
+@import "sections/_navbar-section.scss";
+@import "sections/_hero-section.scss";
+@import "sections/_community-section.scss";
+@import "sections/_about-section.scss";
+@import "sections/_services-section.scss";
+@import "sections/_fact-section.scss";
+@import "sections/_project-section.scss";
+@import "sections/_work-section.scss";
+@import "sections/_question-section.scss";
+@import "sections/_team-section.scss";
+@import "sections/_footer-section.scss";
+
+
+// IMPORT BOOTSTRAP:--
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: map-get($font-family , "$font-family-sans-serif");
+}
+
+
+

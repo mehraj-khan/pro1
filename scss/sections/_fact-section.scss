@@ -1,0 +1,38 @@
+.fact-section{
+    border-radius: 1.5rem;
+    background: map-get($gradient-background , "$main-button");
+    height: auto;
+    width: 70%;
+    margin: 10rem auto;
+    .fact-content{
+        .fact-heading{
+            font-weight: map-get($font-weight , "$font-weight-bolder" );
+        }
+        .fact-main-heading{
+            @include heading();
+        }
+        .fact-text{
+            font-size: map-get($font-size , "$lead-font-size") + .1rem;
+        }
+    }
+    .faq-card{
+        border-radius: 15px;
+        background-color: map-get($colors , "$white" );
+        margin-top: 3rem;
+        position: relative;
+    top: 6rem;
+        .fact-img img{
+            background: map-get($gradient-background , "$main-button");
+            width: 25%; 
+            border-radius: 12px;
+        }
+        .faq-no{
+            font-size: map-get($font-size , "$legend-font-size" );
+            font-weight: map-get($font-weight , "$font-weight-bolder" );
+        }
+        .faq-text{
+            font-size: map-get($font-size , "$h3-font-size");
+            font-weight: map-get($font-weight ,"$font-weight-bolder" );
+        }
+    }
+}
